@@ -1,4 +1,7 @@
 # Javascript Coding Conventions
+Coding conventions secure quality, improve code readability and make code maintenance easier. They can be documented rules for teams to follow, or just be your individual coding practice.
+
+Following coding conventions can help make your code more consistent, predictable and readable.
 
 ## Magic/unknown Numbers
 
