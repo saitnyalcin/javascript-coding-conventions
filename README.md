@@ -36,8 +36,7 @@ const addMultiplySubtract = (a, b, c) => {
 
     const multiplication = a * b * c; // multiplication
 
-    // subtraction
-    const subtraction = a - b - c;
+    const subtraction = a - b - c; // subtraction
 
     return `${addition} ${multiplication} ${subtraction}`;
 };
@@ -142,7 +141,7 @@ class Country {}
 ThisIsPascalCaseNaming;
 ```
 
-## Capitaliza constant values SNAKE UPPER CASE
+## Capitalized constant values ~ SNAKE UPPER CASE
 
 ```javascript
 const SECONDS_IN_A_DAY = 86400;
