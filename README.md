@@ -4,7 +4,7 @@ Coding conventions secure quality, improve code readability and make code mainte
 
 Following coding conventions can help make your code more consistent, predictable and readable.
 
-## Magic/unknown Numbers
+## Magic/unknown Numbers 🎩
 
 ```javascript
 const SECONDS_IN_A_DAY = 86400;
@@ -15,7 +15,7 @@ for (let i = 0; i < SECONDS_IN_A_DAY; i++) {}
 ```
 
 
-## Deep Nesting Statements
+## Deep Nesting Statements 🕸
 
 ```javascript
 const retrieveFinalValue = [[['value']]];
@@ -28,7 +28,7 @@ const retrieveFinalValue = () => {
 };
 ```
 
-## Stop writing comments - code must speak for itself, make it self documenting
+## Stop writing comments - code must speak for itself, make it self documenting 📃
 
 ```javascript
 const addMultiplySubtract = (a, b, c) => {
@@ -53,7 +53,7 @@ const multiply = (a, b, c) => a * b * c;
 const subtract = (a, b, c) => a - b - c;
 ```
 
-## Code repetition
+## Code repetition 🔁
 
 ```javascript
 const getUserCredentials = user => {
@@ -69,7 +69,7 @@ const getUserCredentials = user => {
 };
 ```
 
-## Variable naming
+## Variable naming 🐫
 
 ```javascript
 const camelCase = '';
@@ -86,14 +86,14 @@ getUserData;
 getUserInfo;
 ```
 
-## Favor descriptive over concise
+## Favor descriptive over concise 👍🏻
 
 ```javascript
 findUserByNameOrSurname;
 setUserLggedInTrue;
 ```
 
-## User shorter version of naming
+## User shorter version of naming 🩳
 
 ```javascript
 getUser;
@@ -101,7 +101,7 @@ getUser;
 
 ## Use consistent verbs per concept
 
-## Functions will usually Create, Read, Update and Delete something `(CRUD)`
+## Functions will usually Create, Read, Update and Delete something `(CRUD)` 🗄
 
 ```javascript
 getQuestions; // get
@@ -135,7 +135,7 @@ class Plane {}
 class Country {}
 ```
 
-## Use PascalCase for classNames
+## Use PascalCase for classNames 
 
 ```javascript
 ThisIsPascalCaseNaming;
