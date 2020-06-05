@@ -141,7 +141,7 @@ class Country {}
 ThisIsPascalCaseNaming;
 ```
 
-## Capitalized constant values ~ SNAKE UPPER CASE
+## Capitalized constant values 🐍 SNAKE UPPER CASE
 
 ```javascript
 const SECONDS_IN_A_DAY = 86400;
