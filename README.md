@@ -42,7 +42,7 @@ const addMultiplySubtract = (a, b, c) => {
 };
 ```
 
-## Avoid large functions
+## Avoid large functions ⒡
 ```javascript
 const addition = (a, b, c) => a + b + c;
 ```
@@ -78,7 +78,7 @@ let addCamelCaseNameInHere = '';
 var niceCamelCaseNaming = '';
 ```
 
-## Meaningful names
+## Meaningful names ㈴
 
 ```javascript
 getUserPosts;
@@ -99,7 +99,7 @@ setUserLggedInTrue;
 getUser;
 ```
 
-## Use consistent verbs per concept
+## Use consistent verbs per concept 👟
 
 ## Functions will usually Create, Read, Update and Delete something `(CRUD)` 🗄
 
@@ -109,7 +109,7 @@ returnUsers; // get
 retriveUsers; // get
 ```
 
-## Make booleans that read well in if-the statements
+## Make booleans that read well in if-the statements 👁
 
 ```javascript
 sedan, sold, green, airbag;
@@ -126,7 +126,7 @@ car.isGreen;
 car.hasAirbag;
 ```
 
-## Use nouns for classNames
+## Use nouns for classNames 🏫
 
 ```javascript
 class Car {}
@@ -135,7 +135,7 @@ class Plane {}
 class Country {}
 ```
 
-## Use PascalCase for classNames 
+## Use PascalCase for classNames ⚽️
 
 ```javascript
 ThisIsPascalCaseNaming;
@@ -149,7 +149,7 @@ const HOURS_IN_DAY = 24;
 const USER_AGE = 29;
 ```
 
-## Avoid one-letter variable names
+## Avoid one-letter variable names 📩
 
 ```javascript
 const q = () => {}; // it does not mean anything
